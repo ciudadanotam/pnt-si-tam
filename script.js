@@ -1,6 +1,6 @@
 let documentos = [];
 
-const DOCUMENTOS_POR_PAGINA = 20;
+const DOCUMENTOS_POR_PAGINA = 50;
 
 let paginaActual = 1;
 let documentosFiltrados = [];
