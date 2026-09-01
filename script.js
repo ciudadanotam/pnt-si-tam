@@ -1,5 +1,10 @@
 let documentos = [];
 
+const DOCUMENTOS_POR_PAGINA = 20;
+
+let paginaActual = 1;
+let documentosFiltrados = [];
+
 
 async function cargarDocumentos() {
 
@@ -11,7 +16,11 @@ async function cargarDocumentos() {
 
         cargarMunicipios();
 
-        mostrarDocumentos(documentos);
+        documentosFiltrados = documentos;
+
+        paginaActual = 1;
+
+        mostrarDocumentos();
 
     } catch (error) {
 
@@ -52,7 +61,7 @@ function cargarMunicipios() {
 }
 
 
-function mostrarDocumentos(lista) {
+function mostrarDocumentos() {
 
     const resultados =
         document.getElementById("resultados");
@@ -60,11 +69,29 @@ function mostrarDocumentos(lista) {
     resultados.innerHTML = "";
 
 
-    document.getElementById("contador").textContent =
-        `${lista.length} documento(s) encontrado(s)`;
+    const total = documentosFiltrados.length;
+
+    const totalPaginas =
+        Math.ceil(total / DOCUMENTOS_POR_PAGINA);
 
 
-    if (lista.length === 0) {
+    // --------------------------------------------------------
+    // Ajustar página si fuera necesario
+    // --------------------------------------------------------
+
+    if (paginaActual > totalPaginas && totalPaginas > 0) {
+        paginaActual = totalPaginas;
+    }
+
+
+    // --------------------------------------------------------
+    // Contador
+    // --------------------------------------------------------
+
+    if (total === 0) {
+
+        document.getElementById("contador").textContent =
+            "0 documentos encontrados";
 
         resultados.innerHTML = `
             <p>No se encontraron documentos.</p>
@@ -75,7 +102,29 @@ function mostrarDocumentos(lista) {
     }
 
 
-    lista.forEach(documento => {
+    const inicio =
+        (paginaActual - 1) * DOCUMENTOS_POR_PAGINA;
+
+    const fin =
+        Math.min(
+            inicio + DOCUMENTOS_POR_PAGINA,
+            total
+        );
+
+
+    document.getElementById("contador").textContent =
+        `Mostrando ${inicio + 1}–${fin} de ${total} documento(s) encontrado(s)`;
+
+
+    // --------------------------------------------------------
+    // Documentos de la página actual
+    // --------------------------------------------------------
+
+    const documentosPagina =
+        documentosFiltrados.slice(inicio, fin);
+
+
+    documentosPagina.forEach(documento => {
 
         const div = document.createElement("div");
 
@@ -114,6 +163,139 @@ function mostrarDocumentos(lista) {
 
     });
 
+
+    // --------------------------------------------------------
+    // Paginación
+    // --------------------------------------------------------
+
+    if (totalPaginas > 1) {
+
+        crearPaginacion(totalPaginas);
+
+    }
+
+}
+
+
+function crearPaginacion(totalPaginas) {
+
+    const contenedor =
+        document.createElement("div");
+
+    contenedor.className = "paginacion";
+
+
+    // --------------------------------------------------------
+    // Botón anterior
+    // --------------------------------------------------------
+
+    const anterior =
+        document.createElement("button");
+
+    anterior.textContent = "← Anterior";
+
+    anterior.disabled = paginaActual === 1;
+
+    anterior.addEventListener("click", () => {
+
+        if (paginaActual > 1) {
+
+            paginaActual--;
+
+            mostrarDocumentos();
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        }
+
+    });
+
+    contenedor.appendChild(anterior);
+
+
+    // --------------------------------------------------------
+    // Números de página
+    // --------------------------------------------------------
+
+    for (
+        let pagina = 1;
+        pagina <= totalPaginas;
+        pagina++
+    ) {
+
+        const boton =
+            document.createElement("button");
+
+        boton.textContent = pagina;
+
+
+        if (pagina === paginaActual) {
+
+            boton.className = "pagina-activa";
+
+        }
+
+
+        boton.addEventListener("click", () => {
+
+            paginaActual = pagina;
+
+            mostrarDocumentos();
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        });
+
+
+        contenedor.appendChild(boton);
+
+    }
+
+
+    // --------------------------------------------------------
+    // Botón siguiente
+    // --------------------------------------------------------
+
+    const siguiente =
+        document.createElement("button");
+
+    siguiente.textContent = "Siguiente →";
+
+    siguiente.disabled =
+        paginaActual === totalPaginas;
+
+
+    siguiente.addEventListener("click", () => {
+
+        if (paginaActual < totalPaginas) {
+
+            paginaActual++;
+
+            mostrarDocumentos();
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        }
+
+    });
+
+
+    contenedor.appendChild(siguiente);
+
+
+    document
+        .getElementById("resultados")
+        .appendChild(contenedor);
+
 }
 
 
@@ -123,7 +305,8 @@ function filtrar() {
         document
             .getElementById("busqueda")
             .value
-            .toLowerCase();
+            .toLowerCase()
+            .trim();
 
 
     const municipio =
@@ -132,13 +315,17 @@ function filtrar() {
             .value;
 
 
-    const filtrados =
+    documentosFiltrados =
         documentos.filter(documento => {
 
-            const coincideTexto =
+            const folio =
                 documento.folio
-                    .toLowerCase()
-                    .includes(texto);
+                    ? documento.folio.toLowerCase()
+                    : "";
+
+
+            const coincideTexto =
+                folio.includes(texto);
 
 
             const coincideMunicipio =
@@ -154,7 +341,10 @@ function filtrar() {
         });
 
 
-    mostrarDocumentos(filtrados);
+    // Siempre regresar a la primera página
+    paginaActual = 1;
+
+    mostrarDocumentos();
 
 }
 
