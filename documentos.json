@@ -1,0 +1,967 @@
+[
+    {
+        "municipio": "antiguo-morelos",
+        "folio": "780524126000099",
+        "archivo": "antiguo-morelos/780524126000099_20260901_1308.pdf"
+    },
+    {
+        "municipio": "antiguo-morelos",
+        "folio": "780524126000114",
+        "archivo": "antiguo-morelos/780524126000114_20260901_1308.pdf"
+    },
+    {
+        "municipio": "antiguo-morelos",
+        "folio": "780524126000095",
+        "archivo": "antiguo-morelos/NOMBRAMIENTO-CONTRALORA-Y-TESORERO_20260901_1308.pdf"
+    },
+    {
+        "municipio": "casas",
+        "folio": "780524426000103",
+        "archivo": "casas/RESPUESTA-SOLICITUD-780524426000103_20260901_1327.pdf"
+    },
+    {
+        "municipio": "casas",
+        "folio": "780524426000092",
+        "archivo": "casas/SOLICITUD-RESPUESTA-780524426000092_20260901_1331.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000046",
+        "archivo": "cruillas/oficio-vct-2026-140-780524926000046_20260901_1327.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000047",
+        "archivo": "cruillas/oficio-vct-2026-143-780524926000047_20260901_1328.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000049",
+        "archivo": "cruillas/oficio-vct-2026-149-780524926000049_20260901_1327.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000050",
+        "archivo": "cruillas/oficio-vct-2026-152-780524926000050_20260901_1327.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000051",
+        "archivo": "cruillas/oficio-vct-2026-155-780524926000051_20260901_1327.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000052",
+        "archivo": "cruillas/oficio-vct-2026-158-780524926000052_20260901_1330.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000053",
+        "archivo": "cruillas/oficio-vct-2026-161-780524926000053_20260901_1330.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000055",
+        "archivo": "cruillas/oficio-vct-2026-167-780524926000055_20260901_1328.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000056",
+        "archivo": "cruillas/oficio-vct-2026-170-780524926000056_20260901_1328.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000057",
+        "archivo": "cruillas/oficio-vct-2026-173-780524926000057_20260901_1328.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000058",
+        "archivo": "cruillas/oficio-vct-2026-176-780524926000058_20260901_1328.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000059",
+        "archivo": "cruillas/oficio-vct-2026-179-780524926000059_20260901_1328.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000062",
+        "archivo": "cruillas/oficio-vct-2026-188-780524926000062_20260901_1328.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000064",
+        "archivo": "cruillas/oficio-vct-2026-194-780524926000064_20260901_1329.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000065",
+        "archivo": "cruillas/oficio-vct-2026-197-780524926000065_20260901_1305.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000066",
+        "archivo": "cruillas/oficio-vct-2026-200-780524926000066_20260901_1306.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000067",
+        "archivo": "cruillas/oficio-vct-2026-203-780524926000067_20260901_1306.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000069",
+        "archivo": "cruillas/oficio-vct-2026-209-780524926000069_20260901_1328.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "280524926000070",
+        "archivo": "cruillas/oficio-vct-2026-212-780524926000070_20260901_1306.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000071",
+        "archivo": "cruillas/oficio-vct-2026-215-780524926000071_20260901_1306.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000072",
+        "archivo": "cruillas/oficio-vct-2026-218-780524926000072_20260901_1306.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000073",
+        "archivo": "cruillas/oficio-vct-2026-221-780524926000073_20260901_1306.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000074",
+        "archivo": "cruillas/oficio-vct-2026-224-780524926000074_20260901_1306.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000075",
+        "archivo": "cruillas/oficio-vct-2026-227-780524926000075_20260901_1305.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000076",
+        "archivo": "cruillas/oficio-vct-2026-230-780524926000076_20260901_1329.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000077",
+        "archivo": "cruillas/oficio-vct-2026-233-780524926000077_20260901_1305.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000078",
+        "archivo": "cruillas/oficio-vct-2026-236-780524926000078_20260901_1329.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000079",
+        "archivo": "cruillas/oficio-vct-2026-239-780524926000079_20260901_1305.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000081",
+        "archivo": "cruillas/oficio-vct-2026-245-780524926000081_20260901_1305.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000080",
+        "archivo": "cruillas/oficio-vct-2026-249-780524926000080_20260901_1305.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000092",
+        "archivo": "cruillas/oficio-vct-2026-278-780524926000092-_20260901_1329.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000093",
+        "archivo": "cruillas/oficio-vct-2026-281-780524926000093_20260901_1332.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000094",
+        "archivo": "cruillas/oficio-vct-2026-284-780524926000094_20260901_1331.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000097",
+        "archivo": "cruillas/oficio-vct-2026-293-780524926000097_20260901_1332.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000098",
+        "archivo": "cruillas/oficio-vct-2026-296-780524926000098_20260901_1332.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000099",
+        "archivo": "cruillas/oficio-vct-2026-299-780524926000099_20260901_1332.pdf"
+    },
+    {
+        "municipio": "cruillas",
+        "folio": "780524926000045",
+        "archivo": "cruillas/Oficio-vct-2026-780524926000045-_20260901_1307.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197526000109",
+        "archivo": "gomez-farias/109_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000120",
+        "archivo": "gomez-farias/120_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000053",
+        "archivo": "gomez-farias/53_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000054",
+        "archivo": "gomez-farias/54_20260901_1322.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000055",
+        "archivo": "gomez-farias/55_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000056",
+        "archivo": "gomez-farias/56_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000057",
+        "archivo": "gomez-farias/57_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000058",
+        "archivo": "gomez-farias/58_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000059",
+        "archivo": "gomez-farias/59_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000060",
+        "archivo": "gomez-farias/60_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000061",
+        "archivo": "gomez-farias/61_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000062",
+        "archivo": "gomez-farias/62_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000063",
+        "archivo": "gomez-farias/63_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000064",
+        "archivo": "gomez-farias/64_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000065",
+        "archivo": "gomez-farias/65_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000066",
+        "archivo": "gomez-farias/66_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000067",
+        "archivo": "gomez-farias/67_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000068",
+        "archivo": "gomez-farias/68_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000070",
+        "archivo": "gomez-farias/70_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000071",
+        "archivo": "gomez-farias/71_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000071",
+        "archivo": "gomez-farias/72_20260901_1323.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
+        "folio": "781197726000099",
+        "archivo": "gomez-farias/99_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guemez",
+        "folio": "780525226000019",
+        "archivo": "guemez/780525226000019_20260901_1321.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000047",
+        "archivo": "guerrero/781197826000047-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000048",
+        "archivo": "guerrero/781197826000048-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000049",
+        "archivo": "guerrero/781197826000049-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000050",
+        "archivo": "guerrero/781197826000050-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000051",
+        "archivo": "guerrero/781197826000051-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000052",
+        "archivo": "guerrero/781197826000052-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000053",
+        "archivo": "guerrero/781197826000053-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000055",
+        "archivo": "guerrero/781197826000055-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000057",
+        "archivo": "guerrero/781197826000057-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000058",
+        "archivo": "guerrero/781197826000058-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000059",
+        "archivo": "guerrero/781197826000059-_20260901_1324.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000060",
+        "archivo": "guerrero/781197826000060-_20260901_1324.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000061",
+        "archivo": "guerrero/781197826000061-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000062",
+        "archivo": "guerrero/781197826000062-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000063",
+        "archivo": "guerrero/781197826000063-_20260901_1326.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000064",
+        "archivo": "guerrero/781197826000064-_20260901_1326.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000065",
+        "archivo": "guerrero/781197826000065-_20260901_1323.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000066",
+        "archivo": "guerrero/781197826000066-_20260901_1326.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000067",
+        "archivo": "guerrero/781197826000067-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000068",
+        "archivo": "guerrero/781197826000068-_20260901_1326.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000069",
+        "archivo": "guerrero/781197826000069-_20260901_1324.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000070",
+        "archivo": "guerrero/781197826000070-_20260901_1324.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000071",
+        "archivo": "guerrero/781197826000071-_20260901_1326.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000072",
+        "archivo": "guerrero/781197826000072-_20260901_1324.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000073",
+        "archivo": "guerrero/781197826000073-_20260901_1324.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000074",
+        "archivo": "guerrero/781197826000074-_20260901_1326.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000075",
+        "archivo": "guerrero/781197826000075-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000077",
+        "archivo": "guerrero/781197826000077-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000078",
+        "archivo": "guerrero/781197826000078-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000079",
+        "archivo": "guerrero/781197826000079-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000080",
+        "archivo": "guerrero/781197826000080-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000081",
+        "archivo": "guerrero/781197826000081-_20260901_1326.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000082",
+        "archivo": "guerrero/781197826000082-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000083",
+        "archivo": "guerrero/781197826000083-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000084",
+        "archivo": "guerrero/781197826000084-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000085",
+        "archivo": "guerrero/781197826000085-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "guerrero",
+        "folio": "781197826000086",
+        "archivo": "guerrero/781197826000086-_20260901_1325.pdf"
+    },
+    {
+        "municipio": "hidalgo",
+        "folio": "781197926000046",
+        "archivo": "hidalgo/OFICIO-CONSULTA-DIRECTA_20260901_1326.pdf"
+    },
+    {
+        "municipio": "hidalgo",
+        "folio": "781197926000086",
+        "archivo": "hidalgo/OFICIO-SOLICITUD-781197926000086-2026_20260901_1332.pdf"
+    },
+    {
+        "municipio": "hidalgo",
+        "folio": "781197926000087",
+        "archivo": "hidalgo/OFICIO-SOLICITUD-781197926000087-2026_20260901_1331.pdf"
+    },
+    {
+        "municipio": "hidalgo",
+        "folio": "781197926000088",
+        "archivo": "hidalgo/OFICIO-SOLICITUD-781197926000088-2026_20260901_1332.pdf"
+    },
+    {
+        "municipio": "hidalgo",
+        "folio": "781197926000091",
+        "archivo": "hidalgo/OFICIO-SOLICITUD-781197926000091-2026_20260901_1332.pdf"
+    },
+    {
+        "municipio": "llera",
+        "folio": "780525426000120",
+        "archivo": "llera/Respuesta-Sol-780525426000120-1_20260901_1329.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000047",
+        "archivo": "nuevo-morelos/780526226000047-INF_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000048",
+        "archivo": "nuevo-morelos/780526226000048-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000049",
+        "archivo": "nuevo-morelos/780526226000049-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000050",
+        "archivo": "nuevo-morelos/780526226000050-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000051",
+        "archivo": "nuevo-morelos/780526226000051-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000052",
+        "archivo": "nuevo-morelos/780526226000052-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000053",
+        "archivo": "nuevo-morelos/780526226000053-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000054",
+        "archivo": "nuevo-morelos/780526226000054-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000055",
+        "archivo": "nuevo-morelos/780526226000055-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000056",
+        "archivo": "nuevo-morelos/780526226000056-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000057",
+        "archivo": "nuevo-morelos/780526226000057-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000058",
+        "archivo": "nuevo-morelos/780526226000058-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000059",
+        "archivo": "nuevo-morelos/780526226000059-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000060",
+        "archivo": "nuevo-morelos/780526226000060-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000061",
+        "archivo": "nuevo-morelos/780526226000061-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000062",
+        "archivo": "nuevo-morelos/780526226000062-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000063",
+        "archivo": "nuevo-morelos/780526226000063-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000064",
+        "archivo": "nuevo-morelos/780526226000064-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000065",
+        "archivo": "nuevo-morelos/780526226000065-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000069",
+        "archivo": "nuevo-morelos/780526226000069-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000071",
+        "archivo": "nuevo-morelos/780526226000071-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000072",
+        "archivo": "nuevo-morelos/780526226000072-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000073",
+        "archivo": "nuevo-morelos/780526226000073-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000074",
+        "archivo": "nuevo-morelos/780526226000074-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000075",
+        "archivo": "nuevo-morelos/780526226000075-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000076",
+        "archivo": "nuevo-morelos/780526226000076-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000077",
+        "archivo": "nuevo-morelos/780526226000077-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000080",
+        "archivo": "nuevo-morelos/780526226000080-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000081",
+        "archivo": "nuevo-morelos/780526226000081-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000082",
+        "archivo": "nuevo-morelos/780526226000082-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000083",
+        "archivo": "nuevo-morelos/780526226000083-inf_20260901_1307.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000084",
+        "archivo": "nuevo-morelos/780526226000084-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000085",
+        "archivo": "nuevo-morelos/780526226000085-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000086",
+        "archivo": "nuevo-morelos/780526226000086-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000089",
+        "archivo": "nuevo-morelos/780526226000089-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000090",
+        "archivo": "nuevo-morelos/780526226000090-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000092",
+        "archivo": "nuevo-morelos/780526226000092-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000094",
+        "archivo": "nuevo-morelos/780526226000094-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000095",
+        "archivo": "nuevo-morelos/780526226000095-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000098",
+        "archivo": "nuevo-morelos/780526226000098-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000099",
+        "archivo": "nuevo-morelos/780526226000099-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000101",
+        "archivo": "nuevo-morelos/780526226000101-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000102",
+        "archivo": "nuevo-morelos/780526226000102-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000103",
+        "archivo": "nuevo-morelos/780526226000103-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000104",
+        "archivo": "nuevo-morelos/780526226000104-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000105",
+        "archivo": "nuevo-morelos/780526226000105-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000106",
+        "archivo": "nuevo-morelos/780526226000106-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000110",
+        "archivo": "nuevo-morelos/780526226000110-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000111",
+        "archivo": "nuevo-morelos/780526226000111-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000112",
+        "archivo": "nuevo-morelos/780526226000112-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000113",
+        "archivo": "nuevo-morelos/780526226000113_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000114",
+        "archivo": "nuevo-morelos/780526226000114-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000115",
+        "archivo": "nuevo-morelos/780526226000115-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000116",
+        "archivo": "nuevo-morelos/780526226000116-inf_20260901_1306.pdf"
+    },
+    {
+        "municipio": "ocampo",
+        "folio": "781198226000111",
+        "archivo": "ocampo/RESPUESTA-SOL-781198226000111_20260901_1329.pdf"
+    },
+    {
+        "municipio": "ocampo",
+        "folio": "781198226000116",
+        "archivo": "ocampo/RESPUESTA-SOL-781198226000116_20260901_1329.pdf"
+    },
+    {
+        "municipio": "ocampo",
+        "folio": "781198226000117",
+        "archivo": "ocampo/RESPUESTA-SOL-781198226000117_20260901_1329.pdf"
+    },
+    {
+        "municipio": "ocampo",
+        "folio": "781198226000118",
+        "archivo": "ocampo/RESPUESTA-SOL-781198226000118_20260901_1329.pdf"
+    },
+    {
+        "municipio": "ocampo",
+        "folio": "781198226000119",
+        "archivo": "ocampo/RESPUESTA-SOL-781198226000119_20260901_1323.pdf"
+    },
+    {
+        "municipio": "ocampo",
+        "folio": "781198226000120",
+        "archivo": "ocampo/RESPUESTA-SOL-781198226000120_20260901_1329.pdf"
+    },
+    {
+        "municipio": "ocampo",
+        "folio": "781198226000122",
+        "archivo": "ocampo/RESPUESTA-SOL-781198226000122_20260901_1329.pdf"
+    },
+    {
+        "municipio": "ocampo",
+        "folio": "781198226000124",
+        "archivo": "ocampo/RESPUESTA-SOL-781198226000124_20260901_1329.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000051",
+        "archivo": "palmillas/R.-780526426000051_20260901_1314.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000058",
+        "archivo": "palmillas/R.-780526426000058_20260901_1319.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000065",
+        "archivo": "palmillas/R.-780526426000065_20260901_1315.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000066",
+        "archivo": "palmillas/R.-780526426000066_20260901_1314.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000069",
+        "archivo": "palmillas/R.-780526426000069_20260901_1315.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000071",
+        "archivo": "palmillas/R.-780526426000071_20260901_1319.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000073",
+        "archivo": "palmillas/R.-780526426000073_20260901_1318.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000074",
+        "archivo": "palmillas/R.-780526426000074_20260901_1322.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000075",
+        "archivo": "palmillas/R.-780526426000075_20260901_1321.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000077",
+        "archivo": "palmillas/R.-780526426000077_20260901_1321.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000079",
+        "archivo": "palmillas/R.-780526426000079_20260901_1321.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000080",
+        "archivo": "palmillas/R.-780526426000080_20260901_1319.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000081",
+        "archivo": "palmillas/R.-780526426000081_20260901_1322.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000082",
+        "archivo": "palmillas/R.-780526426000082_20260901_1331.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000083",
+        "archivo": "palmillas/R.-780526426000083_20260901_1319.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000084",
+        "archivo": "palmillas/R.-780526426000084_20260901_1320.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000085",
+        "archivo": "palmillas/R.-780526426000085_20260901_1331.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000086",
+        "archivo": "palmillas/R.-780526426000086_20260901_1320.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000087",
+        "archivo": "palmillas/R.-780526426000087_20260901_1320.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000089",
+        "archivo": "palmillas/R.-780526426000089_20260901_1322.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000091",
+        "archivo": "palmillas/R.-780526426000091_20260901_1331.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000093",
+        "archivo": "palmillas/R.-780526426000093_20260901_1320.pdf"
+    },
+    {
+        "municipio": "palmillas",
+        "folio": "780526426000094",
+        "archivo": "palmillas/R.-780526426000094_20260901_1320.pdf"
+    }
+]

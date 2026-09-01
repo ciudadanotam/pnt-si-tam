@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Consulta de Respuestas a Solicitudes de Información</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="contenedor">
+            <h1>Consulta de Respuestas</h1>
+
+            <p>
+                Solicitudes de información pública
+            </p>
+        </div>
+    </header>
+
+
+    <main class="contenedor">
+
+        <section class="buscador">
+
+            <input
+                type="text"
+                id="busqueda"
+                placeholder="🔍 Buscar por número de folio..."
+            >
+
+            <select id="municipio">
+                <option value="">Todos los municipios</option>
+            </select>
+
+        </section>
+
+
+        <div class="informacion">
+
+            <span id="contador">
+                Cargando documentos...
+            </span>
+
+        </div>
+
+
+        <section id="resultados">
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            Consulta pública de respuestas a solicitudes de información
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
