@@ -157,3 +157,51 @@ footer {
     color: white;
     border-color: #1f4e79;
 }
+
+.navegacion {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-navegacion {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 14px 20px;
+
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+
+    color: white;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.boton-navegacion:hover {
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.boton-navegacion .icono {
+    font-size: 24px;
+}
+
+.boton-navegacion strong {
+    display: block;
+    font-size: 16px;
+}
+
+.boton-navegacion small {
+    display: block;
+    margin-top: 3px;
+    opacity: 0.85;
+    font-size: 13px;
+}
+
+.boton-navegacion .flecha {
+    font-size: 22px;
+    margin-left: 8px;
+}
