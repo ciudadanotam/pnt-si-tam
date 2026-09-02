@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Solicitudes de Información</title>
+
+    <link
+        rel="stylesheet"
+        href="solicitudes.css"
+    >
+</head>
+
+<body>
+
+<header>
+
+    <div class="encabezado">
+
+        <h1>
+            Solicitudes de Información
+        </h1>
+
+        <p>
+            Consulta de solicitudes, respuestas y documentos
+        </p>
+
+        <a
+            href="index.html"
+            class="enlace-principal"
+        >
+            ← Consulta de documentos PDF
+        </a>
+
+    </div>
+
+</header>
+
+
+<main class="contenedor">
+
+
+    <!-- ================================================= -->
+    <!-- BUSCADOR -->
+    <!-- ================================================= -->
+
+    <section class="buscador">
+
+        <div class="campo-busqueda">
+
+            <label for="busqueda">
+                Buscar
+            </label>
+
+            <input
+                type="text"
+                id="busqueda"
+                placeholder="Folio, descripción o respuesta..."
+            >
+
+        </div>
+
+
+        <div class="campo-filtro">
+
+            <label for="municipio">
+                Municipio
+            </label>
+
+            <select id="municipio">
+
+                <option value="">
+                    Todos los municipios
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="campo-filtro">
+
+            <label for="estatus">
+                Estatus
+            </label>
+
+            <select id="estatus">
+
+                <option value="">
+                    Todos
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="campo-filtro">
+
+            <label for="pdf">
+                PDF
+            </label>
+
+            <select id="pdf">
+
+                <option value="">
+                    Todos
+                </option>
+
+                <option value="con_pdf">
+                    Con PDF
+                </option>
+
+                <option value="sin_pdf">
+                    Sin PDF
+                </option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- INFORMACIÓN -->
+    <!-- ================================================= -->
+
+    <section class="informacion">
+
+        <div>
+
+            <strong id="contador">
+                Cargando...
+            </strong>
+
+        </div>
+
+        <button
+            id="limpiar"
+            class="boton-secundario"
+        >
+            Limpiar filtros
+        </button>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- RESULTADOS -->
+    <!-- ================================================= -->
+
+    <section id="resultados">
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- PAGINACIÓN -->
+    <!-- ================================================= -->
+
+    <nav
+        id="paginacion"
+        aria-label="Paginación"
+    >
+
+    </nav>
+
+
+</main>
+
+
+<footer>
+
+    <p>
+        Consulta pública de solicitudes de información
+    </p>
+
+</footer>
+
+
+<script src="solicitudes.js"></script>
+
+</body>
+
+</html>

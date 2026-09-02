@@ -1,0 +1,618 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+
+/* ============================================================
+   ENCABEZADO
+   ============================================================ */
+
+header {
+    background: #1f4e79;
+    color: white;
+    padding: 35px 20px;
+}
+
+
+.encabezado {
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+
+header p {
+    margin: 0 0 15px;
+    opacity: 0.9;
+}
+
+
+.enlace-principal {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+
+.enlace-principal:hover {
+    text-decoration: underline;
+}
+
+
+/* ============================================================
+   CONTENEDOR
+   ============================================================ */
+
+.contenedor {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+
+/* ============================================================
+   BUSCADOR
+   ============================================================ */
+
+.buscador {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(250px, 1fr)
+        200px
+        170px
+        150px;
+
+    gap: 15px;
+}
+
+
+.campo-busqueda,
+.campo-filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.campo-busqueda label,
+.campo-filtro label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+
+#busqueda,
+#municipio,
+#estatus,
+#pdf {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    font-size: 15px;
+
+    background: white;
+}
+
+
+#busqueda:focus,
+#municipio:focus,
+#estatus:focus,
+#pdf:focus {
+    outline: none;
+    border-color: #1f4e79;
+}
+
+
+/* ============================================================
+   INFORMACIÓN
+   ============================================================ */
+
+.informacion {
+    margin: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.boton-secundario {
+    border: 1px solid #ccc;
+    background: white;
+
+    padding: 8px 14px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+.boton-secundario:hover {
+    background: #f0f0f0;
+}
+
+
+/* ============================================================
+   TARJETAS
+   ============================================================ */
+
+.solicitud {
+    background: white;
+
+    margin-bottom: 15px;
+    padding: 20px;
+
+    border-radius: 9px;
+
+    box-shadow:
+        0 2px 7px rgba(0,0,0,0.06);
+}
+
+
+.solicitud-cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 15px;
+
+    margin-bottom: 12px;
+}
+
+
+.folio {
+    display: block;
+
+    font-size: 19px;
+    font-weight: bold;
+
+    color: #1f4e79;
+}
+
+
+.municipio {
+    display: block;
+
+    margin-top: 4px;
+
+    color: #666;
+}
+
+
+.etiquetas {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.etiqueta {
+    display: inline-block;
+
+    padding: 5px 9px;
+
+    border-radius: 12px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.pdf-ok {
+    background: #e4f3e8;
+    color: #256b35;
+}
+
+
+.pdf-manual {
+    background: #fff1d8;
+    color: #8a5b00;
+}
+
+
+.pdf-faltante {
+    background: #f5e5e5;
+    color: #8a3333;
+}
+
+
+.estatus {
+    background: #e8edf3;
+    color: #40566d;
+}
+
+
+/* ============================================================
+   FECHAS
+   ============================================================ */
+
+.datos-fecha {
+    display: flex;
+
+    gap: 30px;
+
+    padding: 10px 0;
+
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+/* ============================================================
+   DESCRIPCIÓN
+   ============================================================ */
+
+.descripcion {
+    margin-top: 15px;
+}
+
+
+.descripcion strong {
+    color: #444;
+}
+
+
+.descripcion p {
+    margin: 7px 0 0;
+
+    line-height: 1.5;
+}
+
+
+/* ============================================================
+   ACCIONES
+   ============================================================ */
+
+.acciones {
+    margin-top: 15px;
+}
+
+
+.boton-detalle,
+.boton {
+    display: inline-block;
+
+    background: #1f4e79;
+    color: white;
+
+    border: none;
+
+    padding: 10px 15px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+
+.boton-detalle:hover,
+.boton:hover {
+    background: #163a5a;
+}
+
+
+.boton-pnt {
+    background: #555;
+}
+
+
+.boton-pnt:hover {
+    background: #333;
+}
+
+
+/* ============================================================
+   SIN RESULTADOS
+   ============================================================ */
+
+.sin-resultados {
+    background: white;
+
+    padding: 40px;
+
+    text-align: center;
+
+    border-radius: 8px;
+}
+
+
+.sin-resultados h2 {
+    margin-top: 0;
+}
+
+
+/* ============================================================
+   PAGINACIÓN
+   ============================================================ */
+
+#paginacion {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 5px;
+
+    margin: 25px 0;
+}
+
+
+.pagina {
+    min-width: 38px;
+    height: 38px;
+
+    border: 1px solid #ccc;
+
+    background: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+.pagina:hover:not(:disabled) {
+    background: #eef2f5;
+}
+
+
+.pagina.activa {
+    background: #1f4e79;
+    color: white;
+
+    border-color: #1f4e79;
+}
+
+
+.pagina:disabled {
+    opacity: 0.4;
+
+    cursor: default;
+}
+
+
+/* ============================================================
+   MODAL
+   ============================================================ */
+
+.modal-fondo {
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0,0,0,0.55);
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    z-index: 1000;
+}
+
+
+.modal-contenido {
+    position: relative;
+
+    background: white;
+
+    width: min(850px, 100%);
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    border-radius: 10px;
+
+    padding: 30px;
+}
+
+
+.cerrar {
+    position: absolute;
+
+    top: 12px;
+    right: 15px;
+
+    border: none;
+
+    background: none;
+
+    font-size: 30px;
+
+    color: #666;
+
+    cursor: pointer;
+}
+
+
+.cerrar:hover {
+    color: #111;
+}
+
+
+.modal-cabecera {
+    border-bottom: 1px solid #ddd;
+
+    padding-bottom: 15px;
+
+    margin-bottom: 20px;
+}
+
+
+.folio-grande {
+    font-size: 23px;
+
+    font-weight: bold;
+
+    color: #1f4e79;
+}
+
+
+.modal-cabecera h2 {
+    margin: 7px 0 0;
+}
+
+
+/* ============================================================
+   DETALLE
+   ============================================================ */
+
+.detalle-seccion {
+    margin-bottom: 25px;
+}
+
+
+.detalle-seccion h3 {
+    margin-bottom: 12px;
+
+    color: #1f4e79;
+}
+
+
+.detalle-seccion dl {
+    display: grid;
+
+    grid-template-columns: 180px 1fr;
+
+    gap: 10px;
+
+    margin: 0;
+}
+
+
+.detalle-seccion dt {
+    font-weight: bold;
+
+    color: #666;
+}
+
+
+.detalle-seccion dd {
+    margin: 0;
+}
+
+
+.texto-largo {
+    white-space: pre-line;
+
+    line-height: 1.65;
+
+    background: #f7f8f9;
+
+    padding: 15px;
+
+    border-radius: 6px;
+}
+
+
+.acciones-finales {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    padding-top: 10px;
+
+    border-top: 1px solid #ddd;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer {
+    margin-top: 50px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    background: #1f4e79;
+
+    color: white;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 800px) {
+
+    .buscador {
+        grid-template-columns: 1fr;
+    }
+
+
+    .solicitud-cabecera {
+        flex-direction: column;
+    }
+
+
+    .etiquetas {
+        justify-content: flex-start;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .datos-fecha {
+        flex-direction: column;
+
+        gap: 5px;
+    }
+
+
+    .modal-contenido {
+        padding: 20px;
+    }
+
+
+    .detalle-seccion dl {
+        grid-template-columns: 1fr;
+    }
+
+
+    .detalle-seccion dt {
+        margin-top: 8px;
+    }
+
+}
