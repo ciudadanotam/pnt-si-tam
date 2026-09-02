@@ -1,79 +1,95 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Consulta de Respuestas a Solicitudes de Información</title>
+```
+<title>Consulta de Respuestas a Solicitudes de Información</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
 
 <body>
 
-    <header>
-        <div class="contenedor">
-            <h1>Consulta de Respuestas</h1>
+```
+<header>
 
-            <p>
-                Solicitudes de información pública
-            </p>
+    <div class="contenedor">
 
-<p>
-            Consulta de solicitudes, respuestas y documentos
+        <h1>
+            Consulta de Respuestas
+        </h1>
+
+        <p>
+            Solicitudes de información pública
         </p>
 
         <a
-            href="index.htm"
+            href="solicitudes.htm"
             class="enlace-principal"
         >
-            ← Consulta de información completa.
+            📋 Consultar solicitudes completas
         </a>
-        </div>
-    </header>
+
+    </div>
+
+</header>
 
 
-    <main class="contenedor">
+<main class="contenedor">
 
-        <section class="buscador">
+    <section class="buscador">
 
-            <input
-                type="text"
-                id="busqueda"
-                placeholder="🔍 Buscar por número de folio..."
-            >
+        <input
+            type="text"
+            id="busqueda"
+            placeholder="🔍 Buscar por número de folio..."
+        >
 
-            <select id="municipio">
-                <option value="">Todos los municipios</option>
-            </select>
+        <select id="municipio">
 
-        </section>
+            <option value="">
+                Todos los municipios
+            </option>
 
+        </select>
 
-        <div class="informacion">
-
-            <span id="contador">
-                Cargando documentos...
-            </span>
-
-        </div>
+    </section>
 
 
-        <section id="resultados">
+    <div class="informacion">
 
-        </section>
+        <span id="contador">
+            Cargando documentos...
+        </span>
 
-    </main>
-
-
-    <footer>
-        <p>
-            Consulta pública de respuestas a solicitudes de información
-        </p>
-    </footer>
+    </div>
 
 
-    <script src="script.js"></script>
+    <section id="resultados">
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        Consulta pública de respuestas a solicitudes de información
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+```
 
 </body>
+
 </html>
