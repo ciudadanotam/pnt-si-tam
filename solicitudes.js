@@ -520,25 +520,20 @@ function crearTarjeta(
             </p>
 
         </div>
-
-
         <div class="acciones">
 
-            <button
+            <a
                 class="boton-detalle"
-                onclick="mostrarDetalle(
-                    '${escapeHtml(
-                        solicitud.folio
-                    )}'
-                )"
+                href="solicitudes/${encodeURIComponent(
+                    solicitud.folio
+                )}.html"
             >
                 Ver solicitud completa
-            </button>
+            </a>
 
         </div>
 
     `;
-
 
     return tarjeta;
 
