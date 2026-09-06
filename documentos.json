@@ -3831,6 +3831,11 @@
     },
     {
         "municipio": "gomez-farias",
+        "folio": "781197726000120",
+        "archivo": "gomez-farias/781197726000120.pdf"
+    },
+    {
+        "municipio": "gomez-farias",
         "folio": "781197726000121",
         "archivo": "gomez-farias/781197726000121.pdf"
     },
@@ -8891,8 +8896,23 @@
     },
     {
         "municipio": "nuevo-morelos",
+        "folio": "780526226000015",
+        "archivo": "nuevo-morelos/780526226000015.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000016",
+        "archivo": "nuevo-morelos/780526226000016.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
         "folio": "780526226000017",
         "archivo": "nuevo-morelos/780526226000017.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000018",
+        "archivo": "nuevo-morelos/780526226000018.pdf"
     },
     {
         "municipio": "nuevo-morelos",
@@ -8928,6 +8948,11 @@
         "municipio": "nuevo-morelos",
         "folio": "780526226000026",
         "archivo": "nuevo-morelos/780526226000026.pdf"
+    },
+    {
+        "municipio": "nuevo-morelos",
+        "folio": "780526226000027",
+        "archivo": "nuevo-morelos/780526226000027.pdf"
     },
     {
         "municipio": "nuevo-morelos",
@@ -9791,6 +9816,16 @@
     },
     {
         "municipio": "padilla",
+        "folio": "780526326000006",
+        "archivo": "padilla/780526326000006.pdf"
+    },
+    {
+        "municipio": "padilla",
+        "folio": "780526326000007",
+        "archivo": "padilla/780526326000007.pdf"
+    },
+    {
+        "municipio": "padilla",
         "folio": "780526326000008",
         "archivo": "padilla/780526326000008.pdf"
     },
@@ -10036,6 +10071,11 @@
     },
     {
         "municipio": "padilla",
+        "folio": "780526326000104",
+        "archivo": "padilla/780526326000104.pdf"
+    },
+    {
+        "municipio": "padilla",
         "folio": "780526326000107",
         "archivo": "padilla/780526326000107.pdf"
     },
@@ -10043,6 +10083,11 @@
         "municipio": "padilla",
         "folio": "780526326000108",
         "archivo": "padilla/780526326000108.pdf"
+    },
+    {
+        "municipio": "padilla",
+        "folio": "780526326000109",
+        "archivo": "padilla/780526326000109.pdf"
     },
     {
         "municipio": "palmillas",
